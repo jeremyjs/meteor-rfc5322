@@ -1,7 +1,7 @@
 RFC 5322
 ========
 
-An RFC 5322 email address parser that wraps http://github.com/FogCreek/email-address.
+An RFC 5322 email address parser that wraps https://github.com/FogCreek/email-addresses.
 
 v 2.0.1
 
@@ -23,10 +23,6 @@ Example
 
 ```
 $ meteor shell
-> RFC5322
-{ [Function: parse5322]
-  parseOneAddress: [Function: parseOneAddressSimple],
-  parseAddressList: [Function: parseAddressListSimple] }
 > RFC5322.parseAddress('"Jack Bowman" <jack@fogcreek.com>')
 { parts:
    { name: [Object],
